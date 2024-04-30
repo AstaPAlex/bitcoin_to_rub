@@ -1,0 +1,8 @@
+integration:
+  free-currency-api:
+    token: fca_live_sSZX3GRpR2TL5GNoyVJ4dnkIjKWz8lKz7Y5i3riV
+    tokenName: apiKey
+    url: https://api.freecurrencyapi.com/v1/latest?currencies=%s
+    currency: RUB
+  currency-bitcoin:
+    url: https://api.coindesk.com/v1/bpi/currentprice.json
